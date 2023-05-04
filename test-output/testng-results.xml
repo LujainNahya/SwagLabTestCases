@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-21T06:57:56 EET" name="Default suite" finished-at="2023-04-21T06:58:24 EET" duration-ms="28073">
+  <suite started-at="2023-05-04T17:48:31 EET" name="Default suite" finished-at="2023-05-04T17:49:03 EET" duration-ms="32000">
     <groups>
     </groups>
-    <test started-at="2023-04-21T06:57:56 EET" name="Default test" finished-at="2023-04-21T06:58:24 EET" duration-ms="28073">
+    <test started-at="2023-05-04T17:48:31 EET" name="Default test" finished-at="2023-05-04T17:49:03 EET" duration-ms="32000">
       <class name="TestCases">
-        <test-method is-config="true" signature="before()[pri:0, instance:TestCases@54f66455]" started-at="2023-04-21T06:57:56 EET" name="before" finished-at="2023-04-21T06:57:57 EET" duration-ms="1350" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:TestCases@4c03a37]" started-at="2023-05-04T17:48:31 EET" name="before" finished-at="2023-05-04T17:48:33 EET" duration-ms="1927" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method signature="LogIn()[pri:1, instance:TestCases@54f66455]" started-at="2023-04-21T06:57:57 EET" name="LogIn" finished-at="2023-04-21T06:57:58 EET" duration-ms="585" status="PASS">
+        <test-method signature="LogIn()[pri:1, instance:TestCases@4c03a37]" started-at="2023-05-04T17:48:33 EET" name="LogIn" finished-at="2023-05-04T17:48:34 EET" duration-ms="775" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogIn -->
-        <test-method signature="AddItems()[pri:2, instance:TestCases@54f66455]" started-at="2023-04-21T06:57:58 EET" name="AddItems" finished-at="2023-04-21T06:58:02 EET" duration-ms="4519" status="PASS">
+        <test-method signature="AddItems()[pri:2, instance:TestCases@4c03a37]" started-at="2023-05-04T17:48:34 EET" name="AddItems" finished-at="2023-05-04T17:48:41 EET" duration-ms="7115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddItems -->
-        <test-method signature="RemoveItems()[pri:3, instance:TestCases@54f66455]" started-at="2023-04-21T06:58:02 EET" name="RemoveItems" finished-at="2023-04-21T06:58:07 EET" duration-ms="4709" status="PASS">
+        <test-method signature="RemoveItems()[pri:3, instance:TestCases@4c03a37]" started-at="2023-05-04T17:48:41 EET" name="RemoveItems" finished-at="2023-05-04T17:48:46 EET" duration-ms="4549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoveItems -->
-        <test-method signature="CheckOut()[pri:4, instance:TestCases@54f66455]" started-at="2023-04-21T06:58:07 EET" name="CheckOut" finished-at="2023-04-21T06:58:19 EET" duration-ms="11940" status="PASS">
+        <test-method signature="CheckOut()[pri:4, instance:TestCases@4c03a37]" started-at="2023-05-04T17:48:46 EET" name="CheckOut" finished-at="2023-05-04T17:48:58 EET" duration-ms="12194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckOut -->
-        <test-method signature="SortFromZtoA()[pri:5, instance:TestCases@54f66455]" started-at="2023-04-21T06:58:19 EET" name="SortFromZtoA" finished-at="2023-04-21T06:58:21 EET" duration-ms="2491" status="PASS">
+        <test-method signature="SortFromZtoA()[pri:5, instance:TestCases@4c03a37]" started-at="2023-05-04T17:48:58 EET" name="SortFromZtoA" finished-at="2023-05-04T17:49:01 EET" duration-ms="2944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SortFromZtoA -->
-        <test-method signature="LogOut()[pri:6, instance:TestCases@54f66455]" started-at="2023-04-21T06:58:21 EET" name="LogOut" finished-at="2023-04-21T06:58:24 EET" duration-ms="2398" status="PASS">
+        <test-method signature="LogOut()[pri:6, instance:TestCases@4c03a37]" started-at="2023-05-04T17:49:01 EET" name="LogOut" finished-at="2023-05-04T17:49:03 EET" duration-ms="2373" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogOut -->

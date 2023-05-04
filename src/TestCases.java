@@ -1,7 +1,14 @@
+import java.io.File;
+import java.io.IOException;
+import java.util.Date;
 import java.util.List;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
@@ -16,11 +23,28 @@ public class TestCases extends Before {
 		driver.findElement(By.xpath("//*[@id=\"login-button\"]")).click();
 	}
 	@Test(priority=2)
-	public void AddItems () throws InterruptedException {
+	public void AddItems () throws InterruptedException, IOException {
 		List<WebElement> listElement = driver.findElements(By.className("btn"));
 		for(int i =0;i<listElement.size();i++) {
 			
-			listElement.get(i).click(); }
+			listElement.get(i).click(); 
+			
+			}
+		//Taking screenshot of how many items have been added
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollTo(0,10)");
+Thread.sleep(2000);
+		Date myDate = new Date();
+		String myDateupdate = myDate.toString();
+
+		String thenewDateFormat = myDateupdate.replace(":", "-");
+
+		TakesScreenshot scrShot = ((TakesScreenshot) driver);
+		File SrcFile = scrShot.getScreenshotAs(OutputType.FILE);
+
+		File DestFile = new File("./screenshot/"+thenewDateFormat+".jpg");
+
+		FileUtils.copyFile(SrcFile, DestFile);
 		Thread.sleep(4000);
 	}
 	@Test(priority=3)

@@ -6,11 +6,7 @@
       <class name="TestCases">
         <methods>
           <include name="AddItems"/>
-          <include name="LogIn"/>
-          <include name="CheckOut"/>
-          <include name="SortFromZtoA"/>
           <include name="before"/>
-          <include name="RemoveItems"/>
         </methods>
       </class> <!-- TestCases -->
     </classes>
